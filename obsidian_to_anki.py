@@ -42,7 +42,7 @@ if __name__ == "__main__":
 
                 i = 0
                 for i in range(len(conlist)):
-                    if '#[[AnkiCard]]' in conlist[i]:
+                    if '#[[&AnkiCard]]' in conlist[i]:
                         content = ''
                         if conlist[i].startswith('-'):
                             j = i+1
